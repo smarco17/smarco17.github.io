@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>UNBLOG</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ricca17.herokuapp.com/"/>
+  <updated>2018-06-10T09:01:59.493Z</updated>
+  <id>https://ricca17.herokuapp.com/</id>
+  
+  <author>
+    <name>sMarco17</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日本語のコメント</title>
+    <link href="https://ricca17.herokuapp.com/2017/12/02/2017-12-02-05/"/>
+    <id>https://ricca17.herokuapp.com/2017/12/02/2017-12-02-05/</id>
+    <published>2017-12-02T06:44:52.000Z</published>
+    <updated>2018-06-10T09:01:59.493Z</updated>
+    
+    <content type="html"><![CDATA[<p>環境の違いによるかもしれないが、Geant4のプログラムに日本語のコメントを打とうとするとエラーになる状況に陥った。そのような場合は以下のようにすれば上手くいった。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// これこれこう</span></span><br><span class="line">G4Orb* ...</span><br></pre></td></tr></table></figure></p><p>↓ (一行分あける)<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// これこれこう</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line">G4Orb* ...</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;環境の違いによるかもしれないが、Geant4のプログラムに日本語のコメントを打とうとするとエラーになる状況に陥った。そのような場合は以下のようにすれば上手くいった。&lt;br&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>マルチスレッドモード</title>
+    <link href="https://ricca17.herokuapp.com/2017/12/02/2017-12-02-04/"/>
+    <id>https://ricca17.herokuapp.com/2017/12/02/2017-12-02-04/</id>
+    <published>2017-12-02T06:40:08.000Z</published>
+    <updated>2018-06-10T09:01:47.001Z</updated>
+    
+    <content type="html"><![CDATA[<p>マルチスレッドモードでシミュレーションを走らせていると、一時ファイルが出力される。拡張子をrootファイルにしている場合、スレッド数に応じて以下のような一時ファイルができる。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// ?はスレッドナンバー</span><br><span class="line">fileName_t?.root</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;マルチスレッドモードでシミュレーションを走らせていると、一時ファイルが出力される。拡張子をrootファイルにしている場合、スレッド数に応じて以下のような一時ファイルができる。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ROOTファイルの名前</title>
+    <link href="https://ricca17.herokuapp.com/2017/12/02/2017-12-02-03/"/>
+    <id>https://ricca17.herokuapp.com/2017/12/02/2017-12-02-03/</id>
+    <published>2017-12-02T06:33:47.000Z</published>
+    <updated>2018-06-10T09:01:23.477Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>G4AnalysisManager</code>クラスの<code>OpenFile()</code>メソッドの引数としてファイル名を指定する、すなわち<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">analysisManager-&gt;OpenFile(fileName);</span><br></pre></td></tr></table></figure></p><p>(<code>analysisManager</code>は<code>G4AnalysisManager</code>のインスタンス)</p><p>としてしまうと、UIコマンド<code>/analysis/setFileName fileName</code>からファイル名を変更できなくなる。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;code&gt;G4AnalysisManager&lt;/code&gt;クラスの&lt;code&gt;OpenFile()&lt;/code&gt;メソッドの引数としてファイル名を指定する、すなわち&lt;br&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>シミュレーション結果の保存</title>
+    <link href="https://ricca17.herokuapp.com/2017/12/02/2017-12-02-02/"/>
+    <id>https://ricca17.herokuapp.com/2017/12/02/2017-12-02-02/</id>
+    <published>2017-12-02T06:24:58.000Z</published>
+    <updated>2018-06-10T09:01:06.637Z</updated>
+    
+    <content type="html"><![CDATA[<p>ターミナル上に出力されるシミュレーション結果を保存したいときは、以下のようにアプリケーションを実行すると良い。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./application-name macro-file-name &gt; output-file-name</span><br></pre></td></tr></table></figure><p>このコマンドを使うと結果の出力待ちになるので、グラフィックソフトも表示されず、ターミナル上には何も表示されなくなるが、出力ファイルはリアルタイムに更新されるのでそれを見れば問題ない。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;ターミナル上に出力されるシミュレーション結果を保存したいときは、以下のようにアプリケーションを実行すると良い。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3Dロゴ</title>
+    <link href="https://ricca17.herokuapp.com/2017/12/02/2017-12-02-01/"/>
+    <id>https://ricca17.herokuapp.com/2017/12/02/2017-12-02-01/</id>
+    <published>2017-12-02T06:20:04.000Z</published>
+    <updated>2018-06-10T09:00:53.213Z</updated>
+    
+    <content type="html"><![CDATA[<p>Geant4のUIコマンド <em>/vis/scene/add/logo</em> は自ら定義した空間に <strong>Geant4</strong> という3Dロゴを打ち込むものであるが、空間がcmオーダーでないとエラーを吐く。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Geant4のUIコマンド &lt;em&gt;/vis/scene/add/logo&lt;/em&gt; は自ら定義した空間に &lt;strong&gt;Geant4&lt;/strong&gt; という3Dロゴを打ち込むものであるが、空間がcmオーダーでないとエラーを吐く。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>忘れそうなことを書き留める</title>
+    <link href="https://ricca17.herokuapp.com/2017/11/23/initial/"/>
+    <id>https://ricca17.herokuapp.com/2017/11/23/initial/</id>
+    <published>2017-11-23T10:42:32.000Z</published>
+    <updated>2018-06-10T08:58:35.253Z</updated>
+    
+    <content type="html"><![CDATA[<p>主にGeant4を使用したシミュレーションに関連することを記す。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;主にGeant4を使用したシミュレーションに関連することを記す。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
+  
+</feed>
