@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ricca17.herokuapp.com/"/>
-  <updated>2018-09-30T10:36:41.679Z</updated>
+  <updated>2018-09-30T10:50:07.096Z</updated>
   <id>https://ricca17.herokuapp.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Geant4のLinux(Ubuntu)へのインストール方法</title>
+    <link href="https://ricca17.herokuapp.com/2018/09/30/2018-09-30-02/"/>
+    <id>https://ricca17.herokuapp.com/2018/09/30/2018-09-30-02/</id>
+    <published>2018-09-30T10:44:12.000Z</published>
+    <updated>2018-09-30T10:50:07.096Z</updated>
+    
+    <content type="html"><![CDATA[<p>Geant4のLinux(Ubuntu)への<a href="https://github.com/smarco17/geant4/blob/master/manual/geant4_build_and_install_guide_for_ubuntu.md" target="_blank" rel="noopener">インストールマニュアル</a>を公開しました。</p><p>動作確認済みです。</p><p>Debian系列であれば、パッケージのインストール方法も含めてほぼ同じ手順で進めることができると思います。<br>RedHat系列では、動作確認はしていません。</p><p>やはりGeant4を使用するなら、Linux系が一番おすすめです。外部ツール(ROOT, Qt, GDML)の使用も前例があり、比較的簡単にインストールできます。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Geant4のLinux(Ubuntu)への&lt;a href=&quot;https://github.com/smarco17/geant4/blob/master/manual/geant4_build_and_install_guide_for_ubuntu.md&quot; target
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
   
   <entry>
     <title>Geant4のWindowsへのインストール方法</title>
