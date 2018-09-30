@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ricca17.herokuapp.com/"/>
-  <updated>2018-06-10T09:01:59.493Z</updated>
+  <updated>2018-09-30T10:36:41.679Z</updated>
   <id>https://ricca17.herokuapp.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Geant4のWindowsへのインストール方法</title>
+    <link href="https://ricca17.herokuapp.com/2018/09/30/2018-09-30-01/"/>
+    <id>https://ricca17.herokuapp.com/2018/09/30/2018-09-30-01/</id>
+    <published>2018-09-30T10:23:08.000Z</published>
+    <updated>2018-09-30T10:36:41.679Z</updated>
+    
+    <content type="html"><![CDATA[<p>Geant4のWindows10への<a href="https://github.com/smarco17/geant4/blob/master/manual/geant4_build_and_install_guide_for_windows.md" target="_blank" rel="noopener">インストールマニュアル</a>を公開しました。</p><p>動作確認済みです。</p><p>でもマルチスレッドに対応していない、Windows上での使用例が少ない、描写が不安定等<br>心配なところが多いので、本格的な使用にはお勧めできません。</p><p>Windows10へのインストールならば、Windows Subsystems for Linux (WSL)がおすすめです。<br>私も現在では主に、UbuntuやUbuntu on WSLでシミュレーションを行っています。</p><p>最近では割とGeant4関連の日本語の記事が多くなっているので、WSLへのGeant4へのインストール方法の記事もあると思います。ほぼLinux系のインストール方法と同じですが、GUIを表示できませんのジオメトリの確認時等はXming等のサーバーを立てる必要があります。</p><p>私の方でもインストール手順は後々紹介しようと思います。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Geant4のWindows10への&lt;a href=&quot;https://github.com/smarco17/geant4/blob/master/manual/geant4_build_and_install_guide_for_windows.md&quot; target=&quot;_
+      
+    
+    </summary>
+    
+    
+      <category term="Geant4" scheme="https://ricca17.herokuapp.com/tags/Geant4/"/>
+    
+  </entry>
   
   <entry>
     <title>日本語のコメント</title>
